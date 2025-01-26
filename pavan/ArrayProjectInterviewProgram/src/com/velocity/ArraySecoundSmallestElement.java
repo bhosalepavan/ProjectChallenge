@@ -1,0 +1,22 @@
+package com.velocity;
+
+public class ArraySecoundSmallestElement {
+	public static void main(String[] args) {
+		
+		int size = 0 , temp;
+		int arr [] = {10,20,30,40,50};
+		int max = arr[0];
+		
+		for(int i = 0; i<arr.length; i++) {
+			for(int j = 0; j<size; j++) {
+				if(arr[i] < arr[j]) {
+					temp = arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+			}
+		}
+		System.out.println("secount Smallest number array"+arr[1]);
+	}
+
+}

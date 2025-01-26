@@ -1,0 +1,8 @@
+package com.velocity;
+
+public class ArraySecoundLargestElement {
+
+	public static void main(String[] args) {
+		
+	}
+}

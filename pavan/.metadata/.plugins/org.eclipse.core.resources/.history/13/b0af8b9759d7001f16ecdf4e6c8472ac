@@ -1,0 +1,19 @@
+package com.velocity;
+
+public class OddEvenNumber {
+	
+	public static void main(String[] args) {
+		
+		int num = 12;
+		
+		while(num > 0) {
+			if(num%2==0) {
+				num++;
+			}else {
+				num++;
+			}
+		}
+		num = num/10;
+	}
+
+}

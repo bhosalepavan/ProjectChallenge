@@ -1,0 +1,28 @@
+package com.velocity;
+
+import java.util.Scanner;
+
+public class ArmstrongNumber {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		System.err.println("Enter any number");
+		
+		int num = 0 , rem , c=0 , arm = 0;
+		num=c;
+		while(num > 0) {
+			
+			rem = num%10;
+			arm=(rem*rem*rem)+arm;
+			num=num/10;
+			
+		}
+		if(c==arm) 
+			
+		System.err.println(c+"armstrong is number ");
+		else
+			System.err.println(c+"armstrog is not number ");
+	}
+
+}
